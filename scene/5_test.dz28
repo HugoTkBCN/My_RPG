@@ -1,0 +1,7 @@
+BACKGROUND: PATH="img/bg_street.png";
+OBSTACLE: PATH="img/house_2.png" | X= 0 | Y= 0;
+OBSTACLE: PATH="img/red_house.png" | X= 500 | Y= 800;
+MUSIC: PATH="music/fight_theme.ogg";
+SOUND: PATH="music/fight_theme.ogg" | MOVE="0, 0 - 500,500";
+SOUND: PATH="music/fight_theme.ogg" | FREQUENCE= 2;
+CONNECTION: TOP=2 | RIGHT = 3 | BOTTOM = 6 | LEFT = 1;

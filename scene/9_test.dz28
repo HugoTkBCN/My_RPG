@@ -1,0 +1,10 @@
+BACKGROUND: PATH="img/grass_bg.png";
+OBSTACLE: PATH="img/green_house.png" | X= 700 | Y= 700;
+OBSTACLE: PATH="img/red_house.png" | X= 0 | Y= 0;
+OBSTACLE: PATH="img/tree_2.png" | X= 20 | Y= 20;
+OBSTACLE: PATH="img/tree_1.png" | X= 60 | Y= 25;
+OBSTACLE: PATH="img/tree_1.png" | X= 67 | Y= 890;
+MUSIC: PATH="music/fight_theme.ogg";
+SOUND: PATH="music/fight_theme.ogg" | MOVE="0, 0 - 500,500";
+SOUND: PATH="music/fight_theme.ogg" | FREQUENCE= 2;
+CONNECTION: TOP=2 | RIGHT = 5 | BOTTOM = 6 | LEFT = 1;
